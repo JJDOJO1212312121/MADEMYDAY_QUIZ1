@@ -225,9 +225,10 @@ background: url('background.png');
 
 
 
-  <!-- เพลงประกอบ -->
-<button id="toggleMusicBtn">🔈 เปิดเพลงประกอบ</button>
-<audio id="bgMusic" src="https://cdn.pixabay.com/download/audio/2022/03/27/audio_42e6f2227a.mp3?filename=calm-sea-6053.mp3" loop></audio>
+<!-- เพลงและเสียง -->
+<audio id="bgm" loop>
+<source src="bgm.mp3" type="audio/mpeg">
+</audio>
 
 <script>
 const music = document.getElementById("bgMusic");
